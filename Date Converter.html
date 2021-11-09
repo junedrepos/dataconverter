@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Date converter</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/nepali.datepicker.v3.7.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="d-md-flex justify-content-md-center align-items-md-center" style="background: rgb(244,241,241);">
+    <div style="margin: 20px;width: 90vw;">
+        <div class="row" style="margin: 10px;">
+            <div class="col-12">
+                <p id="today">Today is :&nbsp; &nbsp;&nbsp;<input type="text" id="nepDate" readonly="">&nbsp;B.S. and&nbsp;&nbsp;<input type="text" id="engDate" readonly="">&nbsp;A.D.</p>
+            </div>
+        </div>
+        <div class="row" style="margin: 10px;">
+            <div class="col-12">
+                <form style="width: 90%;background: #ffffff;border-width: 1px;border-style: solid;padding: 5px;">
+                    <div class="form-group row"><label class="col-sm-4" for="eng">Nepali To English</label>
+                        <div class="col-4"><input class="form-control ndp-nepali-calendar" type="text" id="eng" placeholder="DD-MM-YYYY"></div>
+                    </div>
+                    <div class="form-group row"><label class="col-sm-4"><button class="btn btn-primary col-sm-12" id="btn1" type="button" style="margin: 5px;">Convert To English</button></label>
+                        <div class="col-4"><input class="form-control" type="text" id="op1" readonly=""></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row" style="margin: 10px;">
+            <div class="col-12">
+                <form style="width: 90%;background: #ffffff;border-width: 1px;border-style: solid;padding: 5px;">
+                    <div class="form-group row"><label class="col-sm-4" for="nep">English To Nepali</label>
+                        <div class="col-4"><input class="form-control" type="text" id="nep" placeholder="DD-MM-YYYY"></div>
+                    </div>
+                    <div class="form-group row"><label class="col-sm-4"><button class="btn btn-primary col-sm-12" id="btn2" type="button" style="margin: 5px;">Convert To Nepali</button></label>
+                        <div class="col-4"><input class="form-control" type="text" id="op2" readonly=""></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Myfile.js"></script>
+    <script src="assets/js/nepali.datepicker.v3.7.min.js"></script>
+</body>
+
+</html>
